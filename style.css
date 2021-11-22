@@ -43,7 +43,7 @@ body {
 }
 
 .main_header_container {
-  width: 500px;
+  width: 33vw;
   height: 105px;
   /*  border: 3px solid black;  */
   display: flex;
@@ -98,7 +98,7 @@ body {
 .main_header_btn_r:hover{
   background-color: #2D4BA6;
   color:white;
-  transition:0.6s;
+  transition:0.5s;
 }
 
 .main_header_btn {
@@ -149,11 +149,75 @@ body {
   margin-bottom: 20px;
   font-size: 25px;
   font-family: 'Nanum Gothic';
-  font-weight: 700;
+  font-weight: 600;
+  
 
 }
 
 .sub_title_cnt_s {
   font-size: 13px;
+  margin: 5px;
   font-family: 'NanumGothic';
+  font-size: 80;
+}
+
+#blue_grid_container {
+  display: flex;
+  
+}
+
+#blue_grid_container_s {
+  width: 1000px;
+  height: 257px;
+  display: flex;
+  padding-left: 13vw;
+
+  
+}
+.blue_grid_box {
+  padding: 24px 24px 24px 24px;
+  width: 30vw;
+  height: 170px;
+  background-color: #2D44A9;
+  color: white;
+  font-size: 10px;
+
+}
+.blue_grid_box:nth-child(2) {
+  background-color: #001355;
+}
+
+.strong {
+  font-size: 16px;
+  text-align: left;
+  line-height: inherit;
+  letter-spacing: 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Nanum Gothic';
+  -webkit-font-smoothing: antialiased;
+}
+
+.not_strong {
+  text-align: left;
+  line-height: inherit;
+  letter-spacing: 0px;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-family: 'Nanum Gothic';
+  
+
+}
+
+.link_ {
+  font-weight: 700;
+  font-size: 12px;
+  text-align: left;
+  line-height: inherit;
+  letter-spacing: 0px;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Nanum Gothic';
+
 }
