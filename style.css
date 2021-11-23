@@ -50,7 +50,10 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: -8px;
+}
+.G_school  {
   font-family: 'Nanum Gothic';
+  font-weight: 600;
 }
 
 
@@ -189,13 +192,10 @@ body {
 
 .strong {
   font-size: 16px;
-  text-align: left;
-  line-height: inherit;
-  letter-spacing: 0px;
-  font-style: normal;
+ 
   font-weight: 700;
   font-family: 'Nanum Gothic';
-  -webkit-font-smoothing: antialiased;
+  
 }
 
 .not_strong {
@@ -214,10 +214,8 @@ body {
 .link_ {
   font-weight: 700;
   font-size: 12px;
-  text-align: left;
-  line-height: inherit;
-  letter-spacing: 0px;
-  -webkit-font-smoothing: antialiased;
   font-family: 'Nanum Gothic';
+  margin-top: 85px;
+
 
 }
